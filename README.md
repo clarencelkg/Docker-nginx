@@ -1,7 +1,7 @@
-Custom NGINX Docker Image
+**Custom NGINX Docker Image**
 This repository provides a simple example of how to create a custom Docker image based on NGINX. The custom image will serve an HTML file that you provide.
 
-Prerequisites
+**Prerequisites**
 Docker installed on your machine
 Basic knowledge of Docker commands
 Getting Started
@@ -46,14 +46,8 @@ Step 8: Verify images have been push to AWS ECR.
 aws ecr describe-images --repository-name clowkg --query 'sort_by(imageDetails,& imagePushedAt)[-1].imageTags[0]'
 
 Conclusion
-You’ve successfully created and run a custom Docker image based on NGINX. This image serves an HTML file that you specified. Second part upload docker image to AWS ECR repository. 
+You’ve successfully created and run a custom Docker image based on NGINX. This image serves an HTML file that you specified. Second part upload docker image to AWS ECR repository.
 Feel free to customize the index.html file to suit your needs.
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-
-
-
-
-
