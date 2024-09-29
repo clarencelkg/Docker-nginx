@@ -1,7 +1,9 @@
-**Custom NGINX Docker Image**
+# **Custom NGINX Docker Image**
+
 This repository provides a simple example of how to create a custom Docker image based on NGINX. The custom image will serve an HTML file that you provide.
 
-**Prerequisites**
+## **Prerequisites**
+
 Docker installed on your machine
 Basic knowledge of Docker commands
 Getting Started
